@@ -11,13 +11,12 @@
 
 [Licença](#licença)
 
-<br>
 
 ## Sobre o pomodoro
 
 This is a project based on the Pomodoro technique, developed with React, Vite, and TypeScript. The Pomodoro technique is a time management approach that involves 25-minute work cycles followed by short breaks, which help maintain focus and increase productivity. With this project, you can easily track and manage your work sessions, set goals, and adjust settings according to your needs. The source code is available for you to explore and contribute, so feel free to take a look and leave your mark on this exciting project!
 
-<br>
+
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/36738524/234648906-cd408145-6beb-4221-8d57-3a39758f79c8.png" alt="Página inicial">
@@ -34,8 +33,6 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 - [Zod](https://zod.dev/)
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 - [React Hook Form](https://react-hook-form.com/)
-
-<br>
 
 ## Instalação e uso
 
