@@ -26,6 +26,34 @@ export const FormContainer = styled.div`
   font-weight: bold;
   flex-wrap: wrap;
 `;
+const BaseInput = styled.input`
+  background: transparent;
+  height: 2.5rem;
+  border: 0;
+  /* border-bottom: 2px solid ${(props) => props.theme['gray-300']}; */
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  color: ${(props) => props.theme['red-500']};
+
+
+  &::placeholder{
+    color: ${(props) => props.theme['red-500']};
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+`;
+
+export const TaskInput = styled(BaseInput)`
+  flex: 1;
+`;
+
+export const MinutesAmountInpunt = styled(BaseInput)`
+  width: 4rem;
+`
+
 export const CoutdowContainer = styled.div`
   font-family: 'Roboto Mono', monospace;
   font-size: 10rem;
@@ -36,7 +64,7 @@ export const CoutdowContainer = styled.div`
   gap: 1rem;
 
   span {
-    background: ${(props) => props.theme['gray-500']};
+    background: rgb(255 255 255 / 17%);
     padding: 2rem 1rem;
     border-radius: 8px;
   }
