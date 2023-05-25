@@ -69,7 +69,6 @@ export function Home() {
           </StartCountdownButton>
         )}
       </form>
-      <History />
     </HomeContainer>
   );
 }
